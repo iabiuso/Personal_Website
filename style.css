@@ -1,3 +1,62 @@
 body {
-  background: blue;
+  background: #28527A;
 }
+/*-------- add grid ------------------------------------------------*/
+
+.item1 {
+  grid-area: header;
+}
+
+.item2 {
+  grid-area: main1b;
+}
+
+.item3 {
+  grid-area: main1c;
+}
+
+.item4 {
+  grid-area: main2d;
+}
+
+.item5 {
+  grid-area: main2e;
+}
+
+.item6 {
+  grid-area: main3f;
+}
+
+.item7 {
+  grid-area: main3g;
+}
+
+.item8 {
+  grid-area: footer;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header'
+    'main1b main1b main1c'
+    'main2d main2e main2e'
+    'main3f main3f main3g'
+    'footer footer footer';
+
+  grid-gap: 10px;
+  background-color: #8AC4D0;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: #FBEEAC;
+  text-align: center;
+  font-size: 25px;
+  padding: 20px 0;
+  
+}
+
+/*--------------------------------------------------------------*/

@@ -32,11 +32,14 @@
     <!-------------------------------------------------------->
     <div class="item2">
         
-        <h1>Hi. I am Ignacio Abiuso</h1>
+        <h1 id= "about me" onmouseover="style.color='blue'" onmouseout="style.color='black'">Hi. I am Ignacio Abiuso</h1>
         <h3>I'm a Web development student based in Florida. </h3>
+
+        <button id="button" onclick="javascript:alert('downloading CV...');" >Curriculum Vitae</button>
+       
     </div>
 
-
+    
 
 
     <div class="item3"> 
@@ -74,20 +77,25 @@
     </div>
     <!-------------------------------------------------------->
     <div class="item5">
-
+        <p id="skills"></p>
         <p> I have adquired the skills and knowledge necessary </p>
         <p> to make your project a success. </p>
-        <p>Adaptability</p>
-        <p>Teamwork</p>
-        <p>Problem-solving</p>
-        <p>Communication</p>
-        <p>Creativity</p>
         
+        <h3>Soft Skills</h3>
+        <div id = ulList>
+        <ul style="list-style-type: circle">
+            <li>Adaptability </li>
+            <li>Teamwork </li>
+            <li>Problem-solving </li>
+            <li>Communication </li>
+            <li>Creativity </li>
+        </ul>
+        </div>
 
 
     </div>
     <div class="item6">
-        <h2> Work </h2>
+        <h2 id="work"> Work </h2>
         <p> I used to work as <strong> Business Analyst </strong>implementing ERPs systems (Ex. SAP module MM) </p>
         <p> in Uruguay and Argentina, for several years before moving to the US.</p>
 
@@ -96,7 +104,9 @@
     </div>
     <div class="item7">
 
-        <img src="../Personal_Website/imagesWeb/" alt="illustration">
+    <p><button id="like" onclick="clickCounter()" type="button">Like!</button></p>
+    
+    <div id="result"></div>
 
     </div>
     
@@ -115,13 +125,13 @@
                         <td></td>
                     </tr>
                     <tr>
-                        <td> About Me </td>  
+                        <td><a href="#about me"> About Me</a></td>  
                     </tr>
                     <tr>
-                        <td> Skills </td>
+                        <td><a href=#skills>Skills </a></td>
                     </tr>
                     <tr>
-                        <td> Work </td>
+                        <td><a href=#work>Work</a> </td>
                     </tr>
 
 
@@ -142,7 +152,7 @@
             <div class="fa">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
             
-                
+                <p id="contact"></p>
 
 
                 <table>

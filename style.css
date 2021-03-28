@@ -8,6 +8,7 @@ body {
 
 .item1 {
   grid-area: header;
+  
 }
 
 .item2 {
@@ -21,6 +22,7 @@ body {
 
 .item4 {
   grid-area: main2d;
+  color: #00FFFF;
 }
 
 .item5 {
@@ -76,25 +78,47 @@ img {
   width: 500px;
   
 }
+/*-----------------------------Button  More info ----------------------*/
 
+#button { 
 
+  background-color: #28527A;
+  border-radius: 10%;
+  font-size: medium;
+  color: #00FFFF;
+  padding: 5px 5p
+}
+
+/*--------------------------ul list--------------------------------*/
+
+#ulList {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+  
+}
+/*----------------------------------------------------------*/
+#like { 
+
+  background-color: #28527A;
+  border-radius: 10%;
+  font-size: medium;
+  color: #00FFFF;
+  padding: 5px 5p
+}
 
 /*-------------------------- Add navBar header------------------*/
-
-
 
 
 
 .imgTopNav {
   /* Imagen attributes */
   background-image: url("imageWeb/imageHeader.jpg");
-  background-color: #6b95ad; /* Used if the image is unavailable */
+  background-color: #6b95ad; 
   min-height: 120px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  /* Needed to position the navbar */
   position: relative; 
 }
 
@@ -108,7 +132,7 @@ img {
 }
 
 .topnav a:hover {
-  background-color: #8AC4D0;
+  background-color:#FFB703;
   
 }
 
@@ -116,17 +140,18 @@ img {
 /* The navbar */
 .topnav {
   overflow: hidden;
-  background-color: #8Ac4D0;
+  background-color: #125688;
 }
 
 /* Navbar links */
 .topnav a {
   float: left;
-  color: #28527A;
+  color: #FB8500;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 22px;
+  font-weight: 400;
 }
 
 
@@ -205,6 +230,7 @@ img {
 
 .skills {
   text-align: right; /* Right-align text */
+  font-size: medium;
   padding-top: 5px; /* Add top padding */
   padding-bottom: 5px; /* Add bottom padding */
   color: white; /* White text color */

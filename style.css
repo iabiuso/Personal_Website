@@ -116,7 +116,7 @@ body {
 
 
 
-/*---------------------- Add Flexbox----------------------------------*/
+/*---------------------- Add Flexbox footer----------------------------------*/
 
 .box {
         display: flex;
@@ -128,9 +128,72 @@ body {
 
       .h2 {
         flex: 1 1 auto;
+        
       }
 
       .h3 {
         flex: 1 1 auto;
       }
+
+/*---------------------- Add social icons footer----------------------------------*/ 
+
+/* Style all font awesome icons */
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
   
+  margin-bottom: 20px;
+  
+
+
+}
+
+
+/* Set a specific color for each brand */
+
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* ------------------------Add skills bar set--------------------------------------------------------------*/
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.containerSkills {
+  width: 80%; /* Full width */
+  background-color: #8AC4D0; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 70%; background-color: #28527A;} 
+.css {width: 60%; background-color: #28527A;}
+.js {width: 40%; background-color: #28527A;}
+.photoshop {width: 50%; background-color: #28527A;} 
